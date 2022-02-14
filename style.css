@@ -1,8 +1,13 @@
+header {
+  background-color: #5DADE2;
+}
+
 body {
     font-size: 15pt;
-    background-color: black;
+    background-color: #343C3B;
     color: white;
 }
+
 
 button {
     background-color: #5DADE2;
@@ -18,22 +23,30 @@ button {
 }
 
 button:hover {
-  border: 1px solid #117A65;
-  background-color:white;
-  color:#117A65;
+  border: 1px solid #5DADE2;
+  background-color: #343C3B;
+  color:#5DADE2;
   border-radius:0px;
 }
 
 
 #longueur {
-  background-color: white;
+  background-color: #343C3B;
   width: 80%;
   height: 100px;
+  border-radius: 4px;
 }
 
 #answer {
-  background-color: white;
+  background-color: #343C3B;
   resize: none;
   width: 200px;
   height: 2.2em;
+  border-radius: 12px;
+}
+
+textarea:focus {
+  outline: none !important;
+  border: 1px #5DADE2;
+  box-shadow: 0 0 10px #719ECE;
 }
