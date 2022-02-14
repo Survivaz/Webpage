@@ -5,18 +5,35 @@ body {
 }
 
 button {
-    background-color: #4CAF50; /* Green */
+    background-color: #5DADE2;
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 12px 28px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
     border-radius: 12px;
+    transition-duration: 0.4s;
 }
 
-textarea {
-  width: 100%;
+button:hover {
+  border: 1px solid #117A65;
+  background-color:white;
+  color:#117A65;
+  border-radius:0px;
+}
+
+
+#longueur {
+  background-color: white;
+  width: 80%;
   height: 100px;
+}
+
+#answer {
+  background-color: white;
+  resize: none;
+  width: 200px;
+  height: 2.2em;
 }
